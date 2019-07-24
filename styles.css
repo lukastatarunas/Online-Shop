@@ -29,7 +29,7 @@ html, body {
 }
 
 .shop {
-    background-color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.7);
     height: 1030px;
     margin: 50px 0px 50px 50px;
     padding: 30px;
@@ -53,11 +53,11 @@ html, body {
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 5px;
+    grid-gap: 20px;
 }
 
 .grid-item {
-    background-color: #F5F5F5;
+    background: rgba(255, 255, 255, 0.7);
     height: 400px;
     position: relative;
     z-index: 1;
@@ -80,5 +80,31 @@ html, body {
 }
 
 .aside-item {
-    background-color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 1500px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .shop {
+        height: 1900px;
+        margin: 50px 50px 50px 50px;
+    }
+
+    .main {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media (max-width: 1000px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .shop {
+        height: 3600px;
+    }
 }
