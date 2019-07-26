@@ -103,10 +103,22 @@ html, body {
 .aside-item {
     background: rgba(255, 255, 255, 0.7);
     transition: background-color 0.2s;
+    padding: 25px;
+
 }
 
 .aside-item:hover {
     background: rgba(220, 220, 220, 0.7);
+}
+
+.figure1 {
+    display: flex;
+    justify-content: center;
+}
+
+.search {
+    padding: 10px;
+    flex: 1;
 }
 
 @media (max-width: 1300px) {
