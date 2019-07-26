@@ -39,6 +39,7 @@ html, body {
     background: rgba(255, 255, 255, 0.7);
     margin: 50px 0px 50px 50px;
     padding: 30px;
+    border-radius: 15px;
 }
 
 .main-item {
@@ -65,7 +66,7 @@ html, body {
 .grid-item,
 .sale-item {
     background-color: rgba(255, 255, 255, 0.7);
-    transition: background-color 0.2s;
+    transition: all 0.2s;
 }
 
 .sale-item:before {
@@ -79,6 +80,7 @@ html, body {
 
 .grid-item:hover {
     background-color: rgba(220, 220, 220, 0.7);
+    transform: scale(1.1);
 }
 
 .img {
@@ -108,13 +110,15 @@ html, body {
 
 .aside-item {
     background: rgba(255, 255, 255, 0.7);
-    transition: background-color 0.2s;
+    transition: all 0.2s;
     padding: 25px;
+    border-radius: 15px;
 
 }
 
 .aside-item:hover {
     background: rgba(220, 220, 220, 0.7);
+    transform: scale(1.1);
 }
 
 .figure {
