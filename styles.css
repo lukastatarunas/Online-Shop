@@ -56,19 +56,23 @@ html, body {
 }
 
 .grid-item {
-    background: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.7);
     height: 400px;
     position: relative;
     z-index: 1;
+    transition: background-color 0.2s;
 }
 
 .grid-item:before {
-    background-color: #E8E8E8;
     height: 70%;
     width: 100%;
     content: "";
     position: absolute;
     z-index: -1;
+}
+
+.grid-item:hover {
+    background-color: rgba(220, 220, 220, 0.7);
 }
 
 .img {
@@ -98,6 +102,11 @@ html, body {
 
 .aside-item {
     background: rgba(255, 255, 255, 0.7);
+    transition: background-color 0.2s;
+}
+
+.aside-item:hover {
+    background: rgba(220, 220, 220, 0.7);
 }
 
 @media (max-width: 1300px) {
