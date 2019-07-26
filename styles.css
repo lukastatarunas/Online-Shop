@@ -81,7 +81,7 @@ html, body {
 
 .grid-item:hover {
     background-color: rgba(220, 220, 220, 0.7);
-    transform: scale(1.1);
+    transform: scale(1.06);
 }
 
 .img {
